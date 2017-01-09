@@ -26,8 +26,16 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+  Added lines are kept; deleted lines are not.
+  Common stuff remains as is.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+  Auto merging saves you parsing line by line to see differences
+  BUT, there is a chance info could be compiled in a way that
+  doesn't really make sense (though git does try to warn you
+  of these instances)
 
 3884eab839af1e82c44267484cf2945a766081f3
 
